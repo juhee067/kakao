@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/boad.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="container"> 
+            <header>
+        <h2>WRITE</h2>
+    </header>
+    <main>
+        <!-- 작성자 정보 -->
+        <section id="myInfo">
+            
+          <form action="" class="info">
+<table>
+    <tr ><td class="writer Info">작성자 정보</td>
+        <td class="essential">"<span class="star">＊</span>" 필수 사항입니다.</td></tr>
+    <tr >
+        <td class="title">작성자</td>
+        <td > 최주희</td>
+    </tr>
+    <tr>
+        <td class="title">아이디</td>
+        <td>juhee067</td>
+    </tr>
+    <tr>
+        <td class="title">연락처<span class="star" >＊</span></td>
+        <td>
+            <label for="phone">휴대폰</label>
+            <input type="radio" name="tel" value="m" id="phone" checked>
+            <label for="call">일반전화</label>
+            <input type="radio" name="tel" value="m" id="call"> 
+            <input type="text" id="callNumber" placeholder="-를 제외한 숫자만 입력">
+            <label for="message">SNS 수신</label>
+            <input type="checkbox" id="message">
+
+    </td>
+</tr>
+</table>
+
+          </form>
+        </section>
+        <!-- 작성 내용 -->
+        <section id="content">
+
+            <form action="" class="info">
+                <table>
+                    <tr ><td class="writer Content">작성 내용</td>
+                        <td class="essential">"<span class="star">＊</span>" 필수 사항입니다.</td></tr>
+                    <tr >
+                        <td class="title">제목<span class="star">＊</span></td>
+                        <td > <input type="text" id="jemok"></td>
+                    </tr>
+                    <tr>
+                        <td class="title">분야</td>
+                        <td><input type="select"></td>
+                    </tr>
+                    <tr>
+                        <td class="title">공개여부</td>
+                        <td>
+                            <label for="Public">공개</label>
+                            <input type="radio" name="Public" value="m" id="Public" checked>
+                            <label for="noPublic">비공개</label>
+                            <input type="radio" name="noPublic" value="m" id="noPublic"> 
+                           
+                
+                    </td>
+                </tr>
+                <tr>
+<td class="title">
+    내용<span class="star">＊</span>
+</td>
+<td>
+<textarea name="" id="" cols="80" rows="10"></textarea>
+<span>한글 1500자, 영문 3000자 까지 입력 가능합니다.</span>
+
+</td>
+
+                </tr>
+                <tr>
+                    <td class="title">파일첨부(선택)</td>
+                    <td class="filebox"> 
+                        <label><i class="xi-bars"></label>
+                        <input type="file" id="ex_file"> 
+                      
+                        <p>이미지 가능 확장자 : jpg, gif, bmp</p>
+                    <p>  파일 가능 확장자 : txt, hwp, xls, ppt, doc, zip, pdf</p>
+                    <p> 첨부파일은 한 개 등록 가능하며 사이즈를 1M로 제한 합니다.</p></td>
+                   
+                </tr>
+
+                </table>
+        </section>
+        <section id="information">
+            <table>
+                <tr ><td class="writer collection">개인정보 수집 및 이용에 대한 동의</td>
+                    <tr><td> HRD-Net 서비스 민원 상담을 위해 성명, 연락처를 수집 및 이용합니다.
+                        ( 수집목적 : HRD-Net 서비스 민원상담, 보유기간:5년 )
+                        개인정보 수집 및 취급 위탁에 동의하시지 않는 경우 개선 및 제안요청 작성이 불가능합니다.</td></tr>
+                        <tr><td>개인정보 수집 및 이용에 동의 하십니까?</td>
+                        <td>
+                            <label for="assign">동의합니다.</label>
+                <input type="radio" name="Public" value="m" id="assign" >
+                <label for="noassign">동의하지 않습니다.</label>
+                <input type="radio" name="noPublic" value="m" id="noassign"checked>
+                        </td></tr>
+            </table>
+            
+        </section>
+    </main>
+</div>
+    </div>
+       
+</body>
+</html>

@@ -1,0 +1,39 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* 필수사항 별 */
+.star{
+    font-size: 15px;
+    color: #f00;
+  
+}
+/* 작성자 정보 */
+
+header h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+}
+form{ width: 800px;}
+table .writer{font-size: 20px;}
+table .essential{
+    text-align: right;
+    font-size: 15px;
+   
+}
+
+
+form tr~tr{
+   border-bottom: 1px solid rgb(234, 234, 234);
+}
+form .title{
+    background-color: rgb(244, 244, 244);
+    width: 30%;
+}
+form td{
+padding: 20px 0 20px 20px; 
+}
+
+/* 작성내용 */
